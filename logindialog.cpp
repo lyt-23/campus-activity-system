@@ -11,7 +11,7 @@ LoginDialog::LoginDialog(QWidget *parent) :
     ui(new Ui::LoginDialog)
 {
     ui->setupUi(this);
-    // setWindowTitle(tr("校园活动报名与签到 - 登录"));
+    setWindowTitle(tr("校园活动报名与签到 - 登录"));
     ui->passwordEdit->setEchoMode(QLineEdit::Password);
 
     // Init DB
